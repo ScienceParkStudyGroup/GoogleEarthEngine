@@ -15,12 +15,12 @@ keypoints:
 ---
 # Prerequisites
 
-Please complete this tutorial before arriving at geohackweek. Use the steps below to get registered for a Google Earth Engine account and to join our shared repository.
+Use the steps below to register for a Google Earth Engine account and to join our shared repository.
 
 ### 1. Registering for a Google Earth Engine account
 
   - Go the the [GEE sign up page](https://signup.earthengine.google.com/#!/) and enter > the email you want to use for your GEE account. A gmail is best if you have one.
-  - Enter your email, your affiliation and country/region. Where it asks what you want to accomplish, mention you are at Geohackweek at the University of Washington.
+  - Enter your email, your affiliation and country/region. Where it asks what you want to accomplish, mention: Amsterdam Science Park Study Group workshop.
   - Review the terms, verify your non-robot identify and click 'Submit'.
   - Check your email, including your spam folder, for a link from the Google Developer's Team. The confirmation email will have directions on how to access the Code Editor.
 
@@ -41,13 +41,12 @@ Test Link:
 
 ### 3. Javascript Tips
 
-JavaScript, not to be confused with Java, is a programming language widely used in web development alongside HTML and CSS. You can teach yourself JavaScript using any number of online tutorials, such as those offered by <a href="https://www.w3schools.com/js/" target="_blank">w3schools</a> .
+JavaScript, not to be confused with Java, is a programming language widely used in web development alongside HTML and CSS. At geohackweek, we access Google Earth Engine by entering JavaScript commands into an online integrated development environment (IDE) called the Code Editor. It is not necessary to formally learn JavaScript to work with Google Earth Engine. 
 
-
-At geohackweek, we access Google Earth Engine by entering JavaScript commands into an online integrated development environment (IDE) called the Code Editor. It is not necessary to formally learn JavaScript to work with Google Earth Engine. Below we provide examples and resources for getting started.  
+There are many online tutorials for learning JavaScript, but the <a href="https://developers.google.com/earth-engine/tutorials/tutorial_js_01" target="_blank">Introduction to JavaScript for Earth Engine</a> guide is most applicable if you want to learn more after this course. Below we provide examples and resources for getting started.  
 
 #### Basic JavaScript for GEE
- Here are a few basics useful for GEE, reproduced from the <a href="https://docs.google.com/document/d/1ZxRKMie8dfTvBmUNOO0TFMkd7ELGWf3WjX0JvESZdOE/edit" target="_blank">Earth Engine 101 Beginner's Curriculum</a>.
+Here are a few basics useful for GEE, reproduced from the <a href="https://docs.google.com/document/d/1ZxRKMie8dfTvBmUNOO0TFMkd7ELGWf3WjX0JvESZdOE/edit" target="_blank">Earth Engine 101 Beginner's Curriculum</a>.
 
 
 
@@ -112,7 +111,7 @@ JavaScript uses camelCase. JavaScript (according to W3 academy) is easy to learn
 
 For in-depth industry guidance, Google publishes their own definitive <a href="http://google.github.io/styleguide/jsguide.html" target="_blank">JavaScript style guide</a>.
 
-Dana Tomlin has also created a short <a href="https://drive.google.com/file/d/0B3H1GYZLzLKCckwwVjZfVmdPNDA/view)" target="_blank">JavaScript Quick Start Guide/a> which only takes a few minutes to work through but hits some of the basics. You can find it clicking that link or by going to the GEE homepage, clicking on the EDU tab in the upper left, and scrolling down to the Geospatial Software Design Exercises section.
+Google Earth Engine provides extensive guides and <a href="https://developers.google.com/earth-engine/tutorials" target="_blank">educational resources/a> in case you want to learn more after this course.
 
 
 <br>
