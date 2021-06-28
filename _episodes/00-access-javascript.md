@@ -32,13 +32,12 @@ Google Earth Engine allows you to have shared group folders/repositories for scr
 
   -  <a href="https://code.earthengine.google.com/?accept_repo=users/johannesdegroeve/GEE_SPSG_2021
 " target="_blank">https://code.earthengine.google.com/?accept_repo=users/johannesdegroeve/GEE_SPSG_2021</a>
-  - In the code editor, go to the **Scripts tab** in the top left panel, scroll down and expand the "Reader" section. A directory called *users/username/GEE_SPSG_2021 should appear with read-only versions of the full scripts from each episode.
+  - In the code editor, go to the **Scripts tab** in the top left panel, scroll down and expand the "Reader" section. A directory called *users/johannesdegroeve/GEE_SPSG_2021* should appear with read-only versions of the full scripts from each episode.
   - Please make another repository in the "Owner" section with a name of choice and make a first script "02-CodeEditor". You can use that repository as your working environment for the excercises. 
-
 
 ### 3. Javascript Tips
 
-JavaScript, not to be confused with Java, is a programming language widely used in web development alongside HTML and CSS. At geohackweek, we access Google Earth Engine by entering JavaScript commands into an online integrated development environment (IDE) called the Code Editor. It is not necessary to formally learn JavaScript to work with Google Earth Engine. 
+JavaScript, not to be confused with Java, is a programming language widely used in web development alongside HTML and CSS. In this course we access Google Earth Engine by entering JavaScript commands into an online integrated development environment (IDE) called the Code Editor. It is not necessary to formally learn JavaScript to work with Google Earth Engine. 
 
 There are many online tutorials for learning JavaScript, but the <a href="https://developers.google.com/earth-engine/tutorials/tutorial_js_01" target="_blank">Introduction to JavaScript for Earth Engine</a> guide is most applicable if you want to learn more after this course. Below we provide examples and resources for getting started.  
 
