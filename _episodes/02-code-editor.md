@@ -21,14 +21,8 @@ keypoints:
 
 # Code Editor Overview
 
-GEE has an integrated development environment (IDE) called the Code Editor. The Code Editor has number of features to help make programming in this environment easier that we will explore in this tutorial. For an exhaustive description see the <a href="https://developers.google.com/earth-engine/playground#api-reference-docs-tab" target="_blank">Earth Engine Code Editor help page</a>
+GEE has an integrated development environment (IDE) called the Code Editor. The Code Editor has a number of features to help make programming in this environment easier that we will explore in this tutorial. For an exhaustive description see the <a href="https://developers.google.com/earth-engine/playground#api-reference-docs-tab" target="_blank">Earth Engine Code Editor help page</a>
 in the GEE User Guides.  
-
-
-
-Link to the full code we used in this lesson:
-<a href="https://code.earthengine.google.com/926160c96272a205b91b5ed7b68981ab" target="_blank">https://code.earthengine.google.com/926160c96272a205b91b5ed7b68981ab</a>
-
 
 # Exercise: Exploring the Code Editor
 
@@ -82,7 +76,7 @@ Save scripts by clicking the **Save** button. To include a commit message, use t
 
 *Note: If you didn't make any changes to the script, the* **Save** *button will be greyed out.*
 
-If you look at the top left panel, you can see the script is now saved in your **Scripts** manager. You have four categories of scripts: owner, reader, writer and examples. Each script is backed up on Git. If you move your mouse over the name of the script, three icons will pop up that allow you to revert to older versions, rename or delete the script. You can also make folders and click and drags scripts into those directories.
+If you look at the top left panel, you can see the script is now saved in your **Scripts** manager. You have five categories of scripts: owner, reader, writer, archived and examples. Each script is backed up on Git. If you move your mouse over the name of the script, three icons will pop up that allow you to revert to older versions, rename or delete the script. You can also make folders and click and drags scripts into those directories.
 
 *Note/Warning: If you rename a script, it's revision history disappears.*
 
@@ -91,7 +85,7 @@ You can share a static version of scripts by clicking **Get Link**. A url will a
 
     **Hot Tip: When posted on the help forum, ALWAYS include a link to your code so people can help troubleshoot. Be sure all personal assets you use are publicly shared so the script will run for others.**
 
-#### Joining the shared repository
+#### Accessing the repository
 
 To collaborate interactively on shared scripts with other users, you can create a shared folder, invite your collaborators and place scripts in that folder. We have created a shared folder for GEE_SPSG_2021.
 
@@ -121,7 +115,7 @@ For practice, let's load some imagery into the code editor. We are going to sear
 var landsat8Collection = ee.ImageCollection("LANDSAT/LC08/C01/T1_TOA")
 {% endhighlight %}
 
-In order to look at the collection, try to print it just like you did the string.
+In order to look at the collection, try to print it just like you did with the string.
 
 {% highlight javascript %}
 print(landsat8Collection);
@@ -135,7 +129,7 @@ Earth Engine times out - this means your request is too big, which makes sense a
 print(landsat8Collection.limit(5))
 {% endhighlight %}
 
-This will show you just the first five images so you can preview the collection. You can see the collection ID, the bands, the features, which are the images in the collection and the properties, which is the metadata.
+This will show you just the first five images so you can preview the collection. You can see the collection ID, the bands, the features, which are the images in the collection and the properties (or metadata).
 
 *Note: The developers are always adding great new functionalities to the GUI so we don't have to code. As a result, sometimes there will be a point-and-click method to do something that can also be accomplished by writing a line or two of code. The 'import' function is a great example of this because you can import a collection using either the "Import" button on the metadata or the 'ImageCollection' command written in JavaScript. Same thing, two ways.*
 
@@ -156,7 +150,7 @@ You have now created a new point object and cast it as a `FeatureCollection`. Yo
 <br><br>
 
 
-Having fun? You can further explore how to configure geometries in the <a href="https://geohackweek.github.io/GoogleEarthEngine/05-classify-imagery/" target="_blank">Classifying Imagery</a> section of this tutorial.  
+Having fun? You can further explore how to configure geometries in the <a href="https://scienceparkstudygroup.github.io/GoogleEarthEngine/05-classify-imagery/" target="_blank">Classifying Imagery</a> section of this tutorial.  
 
 
 #### Filtering the Image Collection
@@ -259,9 +253,9 @@ for official GEE tutorials, reference and guides. This is the first place I go w
 
  - links to the **Suggest a Dataset** page
 
-#### Examples in the **Shared Scripts**
+#### Examples in the **Scripts** tab
 
-A final place you can get help is by scrolling down and looking at the examples housed in the **Shared Scripts** in the **Scripts** tab.  
+A final place you can get help is by scrolling down and looking at the examples housed in the **Scripts** tab.  
 
 <br>
 
