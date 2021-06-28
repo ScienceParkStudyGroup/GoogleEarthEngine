@@ -108,7 +108,7 @@ JavaScript uses camelCase. JavaScript (according to W3 academy) is easy to learn
 
 For in-depth industry guidance, Google publishes their own definitive <a href="http://google.github.io/styleguide/jsguide.html" target="_blank">JavaScript style guide</a>.
 
-Google Earth Engine provides extensive guides and <a href="https://developers.google.com/earth-engine/tutorials" target="_blank">educational resources/a> in case you want to learn more after this course.
+Google Earth Engine provides extensive guides and <a href="https://developers.google.com/earth-engine/tutorials" target="_blank">educational resources</a> in case you want to learn more after this course.
 
 
 <br>
