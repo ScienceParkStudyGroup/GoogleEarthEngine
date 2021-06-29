@@ -170,7 +170,7 @@ Essentially, this allows us to sort through the full Landsat 8 collection and lo
 // Load Landsat 8 input imagery
 var image = ee.Image((landsat8Collection)
     // Filter to get only images under the region of interest.
-    .filterBounds(lakePowell)
+    .filterBounds(roi)
     // Filter to get only one year of images.
     .filterDate('2018-01-01', '2018-12-31')
     // Select just the optical bands
