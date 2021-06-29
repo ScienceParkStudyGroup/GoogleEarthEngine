@@ -87,7 +87,7 @@ You can share a static version of scripts by clicking **Get Link**. A url will a
 
 #### Accessing the repository
 
-To collaborate interactively on shared scripts with other users, you can create a shared folder, invite your collaborators and place scripts in that folder. We have created a shared folder for GEE_SPSG_2021.
+To collaborate interactively on shared scripts with other users, you can create a shared repository, invite your collaborators and place scripts in that repository. We have created a shared repository for GEE_SPSG_2021.
 
 You should have already accessed the shared code repository in the Code Editor with the following steps:
 
