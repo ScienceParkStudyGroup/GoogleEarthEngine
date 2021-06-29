@@ -87,13 +87,13 @@ You can share a static version of scripts by clicking **Get Link**. A url will a
 
 #### Accessing the repository
 
-To collaborate interactively on shared scripts with other users, you can create a shared repository, invite your collaborators and place scripts in that repository. We have created a shared repository for GEE_SPSG_2021.
+To collaborate interactively on shared scripts with other users, you can create a shared repository, invite your collaborators and place scripts in that repository. We have created a shared repository for GEE_SPSG_2021. In a repository scripts can be further organized in folders. 
 
 You should have already accessed the shared code repository in the Code Editor with the following steps:
 
 -  <a href="https://code.earthengine.google.com/?accept_repo=users/johannesdegroeve/GEE_SPSG_2021
 " target="_blank">https://code.earthengine.google.com/?accept_repo=users/johannesdegroeve/GEE_SPSG_2021</a>
-- In the code editor, go to the **Scripts tab** in the top left panel, scroll down and expand the "owner" section. A directory called *GEE_SPSG_2021* should appear with read-only versions of the full scripts from each episode.
+- In the code editor, go to the **Scripts tab** in the top left panel, scroll down and expand the "owner" section. A directory called *users/johannesdegroeve/GEE_SPSG_2021* should appear with read-only versions of the full scripts from each episode.
 
 Any updates will be reflected in these versions of the code. Like all GEE scripts, these are version controlled. Read or write permissions for individuals or groups can be set in the Code Editor using the little grey share icon that appears to the right if you move your mouse over the directory name in the *Scripts* tab. You should have read-only access to this repo.
 
