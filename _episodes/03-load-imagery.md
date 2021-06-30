@@ -276,7 +276,7 @@ var ts = modis.map(function(image){
   });
   // and return a feature with 'null' geometry with properties (dictionary)  
   return ee.Feature(null, {'mean': mean.get('NDVI'),
-                            'date': date})
+                            'date': ee.Date(date)})
 });
 
 // Export a .csv table of date, mean NDVI for watershed
