@@ -79,6 +79,7 @@ Once you've determined the "name" property for your watershed, use the featureCo
 {% highlight javascript %}
 // use the inspector tool to find the name of a watershed that interests you
 var watershed = WBD.filterMetadata('name', 'equals', 'Republican');
+// var watershed = WBD.filter(ee.Filter.eq('name','Republican'));
 print(watershed);
 
 // set the map view and zoom level, and add watershed to map
