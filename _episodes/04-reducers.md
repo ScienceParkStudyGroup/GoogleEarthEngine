@@ -168,7 +168,7 @@ return feature.set('Year',2017);
 Export.table.toDrive({
   collection: polyOut,
   description: 'GRIDMET_annual_precip_by_county',
-  folder: 'GEE_geohackweek',
+  folder: 'GEE_SPSG_2021',
   fileFormat: 'CSV'
 });   
 
