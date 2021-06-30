@@ -329,7 +329,7 @@ Export.image.toDrive({
 Export.image.toAsset({
   image: ndvi,
   description: 'SPSG_2017_L8_NDVI_image',
-  assetId: 'users/yourname/geohack_2017_L8_NDVI_image',
+  assetId: 'users/yourname/SPSG_2017_L8_NDVI_image',
   scale: 30,
   region: watershed.geometry().bounds(),
   pyramidingPolicy: {'.default':'mean'}, // use {'.default':'sample'} for discrete data
