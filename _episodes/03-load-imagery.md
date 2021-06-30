@@ -282,8 +282,8 @@ var ts = modis.map(function(image){
 // Export a .csv table of date, mean NDVI for watershed
 Export.table.toDrive({
   collection: ts,
-  description: 'geohack_2017_MODIS_NDVI_stats',
-  folder: 'GEE_geohackweek',
+  description: 'SPSG_2017_MODIS_NDVI_stats',
+  folder: 'GEE_SPSG_2021',
   fileFormat: 'CSV'
 });
 
@@ -316,11 +316,11 @@ var ndvi = composite.select('NDVI');
 // (note: need to hit 'Run' in the task tab in upper right panel)
 Export.image.toDrive({
   image: ndvi,
-  description: 'geohack_2017_L8_NDVI_image',
+  description: 'SPSG_2017_L8_NDVI_image',
   scale: 30,
   region: watershed.geometry().bounds(), // .geometry().bounds() needed for multipolygon
   crs: 'EPSG:5070',
-  folder: 'GEE_geohackweek',
+  folder: 'GEE_SPSG_2021',
   maxPixels: 2000000000
 });
 
@@ -328,7 +328,7 @@ Export.image.toDrive({
 // (note: need to hit 'Run' in the task tab in upper right panel)
 Export.image.toAsset({
   image: ndvi,
-  description: 'geohack_2017_L8_NDVI_image',
+  description: 'SPSG_2017_L8_NDVI_image',
   assetId: 'users/yourname/geohack_2017_L8_NDVI_image',
   scale: 30,
   region: watershed.geometry().bounds(),
