@@ -155,7 +155,7 @@ Formatting includes:
 
 {% highlight javascript %}
 
-// drop .geo column (not needed if goal is tabular data)
+// drop .geo column (not needed if goal is spatial data)
 var polyOut = countyPrecip.select(['.*'],null,false);
 
 // add a new column for year to each feature in the feature collection
